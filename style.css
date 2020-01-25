@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainContainer {
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(45deg, #4b6cb7, #182848);
+    height: 100%;
+    padding: 0;
+}
+
+#headerContainer {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+#menuContainer {
+    position: sticky;
+    width: 5vw;
+    height: 8vh;
+    border: 0.4vw solid #000000;
+    border-radius: 1vw;
+    background-color: #ffffff2b;
+}
+
+#menuImage {
+    width: 100%;
+    height: 100%;
+}
+
+#titleContainer {
+    position: relative;
+    margin: auto;
+    padding: 0vh 4vw;
+    text-align: center;
+    width: 50%;
+}
+
+#titleText {
+    font-size: 65px;
+    text-shadow: 0px 4px 5px #111111cc;
+    color: #000000cc;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#subtitleText {
+    font-size: 30px;
+    text-shadow: 0px 6px 6px #11111166;
+    color: #000000cc;
+    margin: 0;
+}
+
+.headerText {
+    font-family: 'Righteous', cursive;
+    letter-spacing: .3vw;
+}
+
+.subheaderText {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .25vw;
+}
