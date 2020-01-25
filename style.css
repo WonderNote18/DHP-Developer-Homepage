@@ -7,7 +7,7 @@ html, body {
 #mainContainer {
     position: absolute;
     width: 100%;
-    background-image: linear-gradient(45deg, #4b6cb7, #182848);
+    background-image: linear-gradient(115deg, #4ebace, #112b5d);
     height: 100%;
     padding: 0;
 }
@@ -22,9 +22,8 @@ html, body {
     position: sticky;
     width: 45px;
     height: 45px;
-    border: 3.25px solid #000000;
+    border: 2.5px solid #000000;
     border-radius: 7px;
-    background-color: #ffffff2b;
 }
 
 #menuImage {
@@ -35,24 +34,29 @@ html, body {
 #titleContainer {
     position: relative;
     margin: auto;
-    padding: 0vh 4vw;
     text-align: center;
     width: 50%;
 }
 
 #titleText {
-    font-size: 65px;
-    text-shadow: 0px 4px 5px #111111cc;
+    font-size: 48px;
+    text-shadow: 0px 4px 5px #11111191;
     color: #000000cc;
     margin-bottom: 5px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 #subtitleText {
-    font-size: 30px;
-    text-shadow: 0px 6px 6px #11111166;
+    font-size: 24px;
+    text-shadow: 0px 6px 6px #1111119c;
     color: #000000cc;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 .headerText {
